@@ -36,7 +36,7 @@ void Film::wypisz()
 		"\nObserwujesz: \t";
 	if (this->dajobs())	cout << "Tak";
 	else	cout << "Nie";
-	cout << "\n\n";
+	cout << "\n===================================\n";
 }
 
 void Film::zapisz()

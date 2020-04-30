@@ -37,7 +37,7 @@ void Serial::wypisz()
 		"\nObserwujesz: \t";
 	if (this->dajobs())	cout << "Tak";
 	else	cout << "Nie";
-	cout << "\n\n";
+	cout << "\n===================================\n";
 }
 
 void Serial::zapisz()

@@ -111,6 +111,7 @@ void Stream::wypisz()
 	cout << "\nObserwujesz: \t";
 	if (obserwowany) cout << "Tak\n\n";
 	else cout << "Nie\n\n";
+	cout << "\n===================================\n";
 }
 
 Stream::~Stream()

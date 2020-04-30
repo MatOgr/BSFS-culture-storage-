@@ -1,4 +1,5 @@
-3
+4
 True Detective;Kryminal;2013;1;9.84;1;
 Silicon Valley;Szycie;0;2018;9.12;1;
 Family Guy;Horror;1998;18;7.84;0;
+Rick and Morty;Komedia;2013;4;8.7;1;

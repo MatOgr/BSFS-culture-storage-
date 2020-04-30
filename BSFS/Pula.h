@@ -67,12 +67,20 @@ template <class Q> void Pula<Q>::operator-=(string tyt)
 			cout << "\nCzy chcesz usunac to dzielo?\n" <<
 				"|1| - Tak \t\t |0| - Nie\n";
 			cin >> p;
-			if (p == 1) { lista.erase(it); cout << "Uda³o siê usun¹æ dzieuo o podanym tytule\n"; usunieto = true; break; }
-			else if (p == 0) { cout << "\n\n\t\tNie to nie\n\n"; usunieto = true; break; }
+			if (p == 1) { 
+				lista.erase(it); 
+				cout << "Udauo sie usunac dzieuo o podanym tytule\n"; 
+				usunieto = true; 
+				break; 
+			}
+			else if (p == 0) { 
+				cout << "\n\n\t\tNie to nie\n\n"; 
+				usunieto = true; 
+				break; 
+			}
 		}
 	}
-	if (!usunieto)
-	{
+	if (!usunieto) {
 		cout << "W bazie nie ma dzieua o podanym tytule\n";
 	}
 }
