@@ -1,0 +1,5 @@
+4
+klocuch;Szycie;7;21;12;0
+Ola Englund;Muzyka;4;21;15;1
+Boston Dynamics;Tech;2;19;30;1
+MatiChlati;Horror;1;10;0;1
